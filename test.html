@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Document</title> 
+</head>
+<body>
+    <header>
+        <div class="logo"><u>BOOST</u></div>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">SERVICE</a>
+                <a href="#">ABOUT</a>
+                <a href="#">NEWS</a>
+                <a href="#">CONTACT</a>
+            </nav>
+    </header>
+    <main>
+        <section class="contact-hero">
+            <div class="contact-text">
+                <h1 class="CONTACT">CONTACT</h1>
+                <p class="sub-title">お問い合わせ</p>
+            </div>
+        </section>
+
+        <section class="main-contact">
+            <div class="title">
+                <P class="home-contact">HOME-CONTACT</P>
+            </div>
+                <div class="inner">
+                    <div class="text-inner">
+                        <p>お問い合わせ、ご相談は下記のフォームよりお 問い合わせください。</p><p> 後ほど担当者よりご連絡差し上げます。</p>
+                        <p>なお、入力いただきましたお客様の個人情報・相談内容は弊社にて厳重に取り扱い致します。</p>
+                    </div>
+                        <div class="input-section-inner">
+                            <h2 class="input-text">問い合わせ種別</h2>
+                            <fieldset class="radio-group">
+                                <label class="radio-itemt">
+                                <input
+                                    class="radio-content"
+                                    type="radio"
+                                    name="topic"
+                                    value="service">
+                                <span> サービスについてのお問い合わせ</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input
+                                        class="radio-content"
+                                        type="radio"
+                                        name="topic"
+                                        value="product">
+                                <span> 商品について</span>
+                                </label>
+                                <label class="radio-itemt">
+                                    <input
+                                        class="radio-content"
+                                        type="radio"
+                                        name="topic"
+                                        value="suggestion">
+                                        <span> 弊社への広告サービスのご提案</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input
+                                        class="radio-content"
+                                        type="radio"
+                                        name="topic"
+                                        value="other">
+                                    <span> その他お問い合わせ</span>
+                                </label>
+                            </fieldset>
+
+                                <div class="form-container">
+                                    <div class="form-row">
+                                        <label for="company">貴社名
+                                            <span class="required">（必須）</span>
+                                        </label>
+                                        <input type="text" 
+                                                id="company" 
+                                                name="company" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="person">ご担当者名
+                                            <span class="required">（必須）</span>
+                                        </label>
+                                        <input type="text" 
+                                                id="person" 
+                                                name="person" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="department">部署名
+                                            <span class="required">（必須）</span>
+                                        </label>
+                                        <input type="text" 
+                                                id="department" 
+                                                name="department" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="position">役職</label>
+                                        <input type="text" 
+                                                id="position" 
+                                                name="position" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="url">貴社URL</label>
+                                        <input type="text" 
+                                                id="url" 
+                                                name="url" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="email">メールアドレス
+                                            <span class="required">（必須）</span>
+                                        </label>
+                                        <input type="text" 
+                                                id="email" 
+                                                name="email" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="phone">お電話番号</label>
+                                        <input type="tel" 
+                                                id="phone" 
+                                                name="phone" 
+                                                placeholder="株式会社BOOST"
+                                                required>
+                                    </div>
+                                </div>
+
+                                
+                        </div>
+                        <div class="message-text">
+                            <label for="message">お問い合わせ内容</label>
+                            <textarea id="message" 
+                                    name="message" 
+                                    rows="5"></textarea>
+                            <label for="box">個人情報の取り扱いについて</label>
+                            <textarea id="message" 
+                                    name="message" 
+                                    rows="5"></textarea>
+                        </div>
+                </div>
+                <form class="form-submit">
+                    <div class="agree-section">
+                        <label type="checkbox-label">
+                            <input type="checkbox" required>
+                            <span>同意する</span>
+                        </label>
+                    </div>
+
+                    <div class="submit-section">
+                        <button type="submit" class="submit-button">送信する</button>
+                    </div>
+                </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-left">
+                <h2>GET IN TOUCH <br>WITH US</h2>
+                <a href="#contact" class="contact-button">CONTACT</a>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <em><u>BOOST</u></em>
+            </div>
+            <div class="footer-info">
+                <span>PRIVACY POLICY</span>
+                <span>©2022 BOOST INC.</span>
+            </div>
+        </div>
+        <a href="#" class="scroll-top">↑</a>
+    </footer>
+</body>
+</html>
